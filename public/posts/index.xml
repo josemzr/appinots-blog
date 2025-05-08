@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Appinots Blog</title><link>https://appinots.com/posts/</link><description>Recent content in Posts on Appinots Blog</description><generator>Hugo -- 0.147.2</generator><language>es-es</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://appinots.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Bienvenido</title><link>https://appinots.com/posts/bienvenido/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://appinots.com/posts/bienvenido/</guid><description>&lt;p>¡Hola! Bienvenido al blog de Appinots.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Appinots Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Appinots Blog</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy the Node Autoprovisioner in AKS</title>
+      <link>http://localhost:1313/posts/aks-node-autoprovisioner/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aks-node-autoprovisioner/</guid>
+      <description>&lt;p&gt;The &lt;strong&gt;Node Autoprovisioner&lt;/strong&gt; is a powerful open-source component that enables Kubernetes to automatically provision (and deprovision) nodes based on pod scheduling needs. It&amp;rsquo;s similar in intent to the &lt;a href=&#34;https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md&#34;&gt;Cluster Autoscaler&lt;/a&gt;, but it allows for &lt;strong&gt;greater flexibility&lt;/strong&gt; by dynamically creating &lt;strong&gt;new node pools&lt;/strong&gt; with custom configurations — including taints, labels, and instance types.&lt;/p&gt;
+&lt;p&gt;This guide will walk you through deploying the Node Autoprovisioner on &lt;strong&gt;Azure Kubernetes Service (AKS)&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;An existing AKS cluster (version &amp;gt;= 1.26 recommended)&lt;/li&gt;
+&lt;li&gt;Azure CLI installed and logged in&lt;/li&gt;
+&lt;li&gt;Helm installed&lt;/li&gt;
+&lt;li&gt;Cluster-admin access (&lt;code&gt;kubectl&lt;/code&gt; configured)&lt;/li&gt;
+&lt;li&gt;The AKS cluster must use &lt;strong&gt;VMSS&lt;/strong&gt; (Virtual Machine Scale Sets)&lt;/li&gt;
+&lt;li&gt;Enable &lt;strong&gt;Managed Identity&lt;/strong&gt; on the cluster&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;enable-aks-preview-features-if-needed&#34;&gt;Enable AKS Preview Features (if needed)&lt;/h2&gt;
+&lt;p&gt;Node Autoprovisioner requires enabling the AKS Preview CLI extension:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

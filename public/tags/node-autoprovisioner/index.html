@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | Appinots Blog</title>
+<title>Node Autoprovisioner | Appinots Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/404.html">
+<link rel="canonical" href="http://localhost:1313/tags/node-autoprovisioner/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,7 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/node-autoprovisioner/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/node-autoprovisioner/">
 <noscript>
     <style>
         #theme-toggle,
@@ -69,8 +70,27 @@
         </ul>
     </nav>
 </header>
-<main class="main">
-<div class="not-found">404</div>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Node Autoprovisioner
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Deploy the Node Autoprovisioner in AKS
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Node Autoprovisioner is a powerful open-source component that enables Kubernetes to automatically provision (and deprovision) nodes based on pod scheduling needs. It’s similar in intent to the Cluster Autoscaler, but it allows for greater flexibility by dynamically creating new node pools with custom configurations — including taints, labels, and instance types.
+This guide will walk you through deploying the Node Autoprovisioner on Azure Kubernetes Service (AKS).
+Prerequisites An existing AKS cluster (version &gt;= 1.26 recommended) Azure CLI installed and logged in Helm installed Cluster-admin access (kubectl configured) The AKS cluster must use VMSS (Virtual Machine Scale Sets) Enable Managed Identity on the cluster Enable AKS Preview Features (if needed) Node Autoprovisioner requires enabling the AKS Preview CLI extension:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-15 00:00:00 +0000 UTC'>January 15, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to How to Deploy the Node Autoprovisioner in AKS" href="http://localhost:1313/posts/aks-node-autoprovisioner/"></a>
+</article>
     </main>
     
 <footer class="footer">
