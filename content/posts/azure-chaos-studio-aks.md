@@ -79,18 +79,4 @@ az chaos experiment show --name aks-restart-test --resource-group <resource-grou
 
 ---
 
-## 🛑 Step 5: Clean Up
-
-```bash
-az chaos experiment delete --name aks-restart-test --resource-group <resource-group>
-```
-
-You may also want to remove the Chaos Studio target from your AKS cluster:
-
-```bash
-az chaos target delete --resource-id $(az aks show -g <resource-group> -n <aks-name> --query id -o tsv)
-```
-
----
-
 Chaos engineering is not about breaking things — it's about learning how your system breaks, and building confidence in its ability to recover. Start small, iterate, and build trust in your architecture.
