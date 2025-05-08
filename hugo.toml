@@ -1,0 +1,7 @@
+baseURL = "https://appinots.com/"
+languageCode = "es-es"
+title = "Appinots Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light"
