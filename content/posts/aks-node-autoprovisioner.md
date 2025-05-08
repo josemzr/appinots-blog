@@ -1,5 +1,5 @@
 ---
-title: "How to Deploy the Node Autoprovisioner in AKS"
+title: "Deploying Node Autoprovisioner in AKS"
 date: 2025-01-15
 draft: false
 tags: ["AKS", "Kubernetes", "Autoscaling", "Node Autoprovisioner", "Azure"]

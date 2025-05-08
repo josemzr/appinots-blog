@@ -1,5 +1,5 @@
 ---
-title: "How to Use Azure Chaos Studio with AKS"
+title: "Using Chaos Studio with AKS"
 date: 2025-02-04
 draft: false
 tags: ["AKS", "Azure", "Chaos Engineering", "Chaos Studio", "Resilience"]
